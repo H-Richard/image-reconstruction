@@ -5,21 +5,27 @@ USAGE:
 
 Compilation
 
-```bash
+```shell
 gcc quad.c pgmio.c roundtrip.c
 ```
 
 Running the program
 
-```bash
+```shell
 a.exe inputfile outputfile threshold maximum depth
 ```
 
 EXAMPLE:
 
-```bash
+```shell
 gcc quad.c pgmio.c roundtrip.c
 a.exe test.pgm output.pgm 50 80
 ```
 
 test.pgm: 
+
+![TEST](test.jpg) 
+
+output.pgm:
+
+![OUTPUT](output.jpg)
